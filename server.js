@@ -6,6 +6,7 @@ import urlRoutes from './routes/urlRoutes.js';
 import { errorHandler } from './middlewares/errorHandler.js';
 import analyticsRoutes from './routes/analyticsRoutes.js';
 import rateLimit from 'express-rate-limit';
+import './bot/bot.js'
 const app = express();
 
 const limiter = rateLimit({
